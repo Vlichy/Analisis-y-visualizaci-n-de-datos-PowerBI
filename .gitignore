@@ -1,0 +1,29 @@
+# Python y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+# Temporales y sistema
+*.tmp
+*.temp
+*.log
+~$*
+.DS_Store
+Thumbs.db
+# Estado local de Power BI (los informes siguen siendo publicables)
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+**/.pbi/unappliedChanges.json
